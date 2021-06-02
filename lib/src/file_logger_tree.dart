@@ -27,7 +27,7 @@ class FileLoggerTree extends LogTree {
 
   /// The number of days to keep the log files onto the disk
   /// If you want to disable the auto-clean mechanism, just pass a null value
-  final int numberOfDays;
+  final int? numberOfDays;
 
   /// The format for each file (eg: yyyy-MM-dd => 2019-08-24.log)
   final String fileDateFormat;
